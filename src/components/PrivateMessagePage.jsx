@@ -23,7 +23,7 @@ return (
         className="goback"
         
       >
-        Go Back
+        Go Back (뒤로가기)
       </button>
 </div>
 );
