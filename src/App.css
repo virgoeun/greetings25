@@ -43,13 +43,22 @@ body, html {
 }
 
 .user-image {
-    width: 80%; /* Scale the image to fit properly */
+    width: 95%; /* Scale the image to fit properly */
     max-width: 1000px; /* Ensure it doesn't get too large */
     height: auto; /* Maintain aspect ratio */
     margin-top: 20px;
     border-radius: 15px; /* Add rounded corners */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow for better appearance */
 }
+
+/* .user-image {
+  width: 100%;
+  max-width: 600px; 
+  height: auto; 
+  margin-top: 20px;
+  border-radius: 15px; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} */
 
 .search-container {
   display: flex;
@@ -120,4 +129,11 @@ body, html {
 
 audio {
   display: none; /* Hides the audio player */
+}
+
+@media (max-width: 375px) {
+  .user-image {
+    width: 90%; /* Slightly smaller width for very small screens */
+    max-width: 320px; /* Adjust max width for iPhone SE */
+  }
 }
