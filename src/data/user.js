@@ -10,8 +10,10 @@ import oppa from '../assets/public/oppa.png'
 import suck from '../assets/public/suck.png'
 import gilmo from '../assets/public/gilmo.png'
 import eu from '../assets/public/eu.png'
+import alice from '../assets/public/alice.png'
 
 export const users = [
+  { codeName: 'Alice', password: '6436', image:alice },
   { codeName: 'Shani', password: '0660', image:shani },
   { codeName: 'Ninja', password: '8182', image:ninja },
   { codeName: 'Ulf', password: '8193', image:ulf },
